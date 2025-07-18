@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color:white;
+    display:flex;
+}
+
+.col{
+    flex: 1;
+}
+nav{
+    background-color: dodgerblue;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+li a:hover{
+    background-color: tomato;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    flex: 1;
+    padding: 20px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1,p{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+.left a{
+    text-decoration: none;
+    color:white;
+    background-color: dodgerblue;
+    width: fit-content;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.left a:hover{
+    background-color: tomato;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.row .box{
+    padding: 20px;
+}
+
+.card i{
+    width: 50px;
+    height: 50px;
+    /* background-color: dodgerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px gray;
+    
+}
+
+.form{
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.form i{
+    color: white;
+}
+
+.form input{
+    border: none;
+    background-color: transparent;
+}
+
+.form-control{
+    border: 2px solid white;
+}
+
+::placeholder{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+.hover h1{
+    display: none;
+}
+
+.hover:hover h1{
+    display: inline;
+}
