@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    margin-top: 50px;
+}
+
+.col{
+    flex: 1;
+}
+
+.imgbox{
+    display: flex;
+}
+
+.box-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-left img{
+    width: 80px;
+    border: 1px solid gray;
+}
+
+.box-right{
+    flex: 3;
+}
+
+
+.container{
+    margin: 0px 20px;
+}
