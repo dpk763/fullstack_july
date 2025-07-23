@@ -23,7 +23,6 @@ header{
     background-color: black;
     color:white;
     display:flex;
-    
 }
 
 .col{
@@ -159,4 +158,40 @@ p::selection{
 
 .hover:hover h1{
     display: inline;
+}
+
+@media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+    }
+    .col{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav a{
+        text-align: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left{
+        order: 2;
+    }
+
+    .right{
+        order: 1;
+    }
+
+    .row{
+        flex-direction: column;
+    }
 }

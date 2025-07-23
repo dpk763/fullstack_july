@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+        }
+
+        .box:nth-child(1){
+            background-color: dodgerblue;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+        .box:nth-child(2){
+            background-color: #ff6347;
+            left: 50px;
+            top: 50px;
+            /* z-index: -2; */
+        }
+        .box:nth-child(3){
+            background-color: red;
+            left: 150px;
+            z-index: -1;
+        }
+
+        .box:hover{
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">item-1</div>
+        <div class="box">item-2</div>
+        <div class="box">item-3</div>
+    </div>
+</body>
+</html>
