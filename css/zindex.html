@@ -6,8 +6,10 @@
     <title>Document</title>
     <style>
         .container{
-            display: flex;
+           display: flex;
+           gap: 10px;
         }
+
         .box{
             height: 200px;
             width: 200px;
@@ -16,24 +18,23 @@
 
         .box:nth-child(1){
             background-color: dodgerblue;
+            left: 200px;
+            top: 200px;
+            z-index: -3;
+        }
+       
+        .box:nth-child(2){
+            background-color: tomato;
             left: 100px;
-            top: 100px;
+            top:100px;
             z-index: 1;
         }
-        .box:nth-child(2){
-            background-color: #ff6347;
-            left: 50px;
-            top: 50px;
-            /* z-index: -2; */
-        }
-        .box:nth-child(3){
-            background-color: red;
-            left: 150px;
-            z-index: -1;
-        }
 
-        .box:hover{
-            z-index: 2;
+        .box:nth-child(3){
+            background-color: brown;
+            top: 50px;
+            left: 250px;
+            z-index: -1;
         }
     </style>
 </head>

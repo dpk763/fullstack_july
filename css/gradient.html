@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap: 10px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            transition: transform 1s;
+        }
+        
+        .box:nth-child(1){
+            
+            background-image: linear-gradient(to right top,red,green, blue);
+        }
+
+        .box:nth-child(2){
+            background-image: radial-gradient(at top left, red, green, orange);
+        }
+
+        .box:nth-child(3){
+            background-image: conic-gradient(from 90deg,red,yellow,blue);
+        }
+
+        .box:nth-child(4){
+            background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg);
+            border-radius: 50%;
+        }
+
+        .box:hover{
+            /* transform: rotate(90deg); */
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
