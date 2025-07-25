@@ -1,0 +1,26 @@
+
+1. HTML (HyperText Markup Language)
+    Semantic HTML (e.g., <header>, <nav>, <section>, <article>, <footer>)
+    Non-Semantic HTML (e.g. <span>, <div>)
+    Forms and Input Fields (<input>, <textarea>, <button>, <select>, <form>)
+    HTML5 Elements (<canvas>, <audio>, <video> & SVG)
+    Meta Tags & Accessibility (<meta>, attributes)
+
+
+2. CSS (Cascading Style Sheets)
+    CSS Box Model (Margin, Border, Padding, Content)
+    Flexbox & Grid (For responsive layouts)
+    CSS Positioning (absolute, relative, fixed, sticky)
+    CSS Transitions & Animations
+    Media Queries & Responsive Design
+
+
+3. JavaScript (JS) Basics for React
+    Variables & Data Types (let, const, var, arrays, objects)
+    Functions & Arrow Functions
+    ES6+ Features (destructuring, spread/rest operator, template literals)
+    DOM Manipulation (querySelector, getElementById, addEventListener)
+    Event Handling (click, keyup, keydown, submit)
+    Asynchronous JavaScript (setTimeout, setInterval, Promises, Async/Await)
+    Array Methods (map(), filter(), reduce(), forEach())
+    Modules & Import/Export (import, export)
