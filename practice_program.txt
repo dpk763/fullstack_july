@@ -1,0 +1,333 @@
+1. // enter two numbers and display addition, subtract, division, multiplication, mod.
+2. // program to basic salary table.
+3. // program to student record calculate total marks and average marks.
+4. // program to electricity bill calculator.
+5. // program to months calculator.
+6. // Program to Calculate the Area of a Triangle (base and height is given).
+7. // Program to Swap Two Variables 1. (Using a Temporary Variable) 2. (Using Arithmetic Operators) 3. (Using ES6(ES2015) Destructuring assignment).
+8. // Program to Convert Celsius to Fahrenheit formula(fahrenheit = celsius * 1.8 + 32).
+
+
+9. // Program to Check if a number is Positive, Negative, or Zero.
+10 // Program to check whether a person is eligible for vote or not.
+11. // program to electricity bill calculator with condition (Unit<=50 Rs. 2.5 , Unit<=100 Rs. 3 , Unit<=200 Rs. 3.5 , Unit<=300 Rs. 4 , Unit>300 Rs. 5).
+12. // Program to Find the Largest Among Three Numbers.
+13. // Program to Check Vowel or Consonant.
+14. // Program to Check if a Number is Odd or Even.
+
+
+15. // Program to Reverse a String.
+16. // Program to Check Whether a String is Palindrome or Not.
+17. // program to display the sum of natural numbers (1 to 100).
+18. // program to display the sum of odd numbers and even numbers.
+19. // program to calculate factorial.
+
+
+20. // program to Generate Random Strings.
+21. // program to Generate Random captcha code.
+
+22. // program to Simple Calculator;
+23. //program to create a Counter.
+
+24. // program to Day Night mode.
+25. // Build a student’s virtual college id card generator using Javascript
+26.// Random Quotes JavaScript Project
+27. // Rating stars using javascript with emoji
+28. // find vowels or consonants using array in javascript
+29. // Random Bubbles program
+30. // random Profile Card
+31. // Tip Calculator
+32. // Timer
+33. // JavaScript Form Validation
+34. // review carousel
+35. // Pass the Message Project (show last message delivered)
+36. // Random Colour Generate
+
+
+
+Star Programs
+program 1
+
+*
+*
+*
+*
+*
+
+
+
+program 2
+
+*****
+*****
+*****
+*****
+*****
+
+
+program 3
+*
+**
+***
+****
+*****
+
+
+
+program 4
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+
+
+
+program 5
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+
+
+program 6
+
+*****
+****
+***
+**
+*
+*
+**
+***
+****
+*****
+
+
+program 7
+
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+
+Program 8
+
+
+    *
+   **
+  ***
+ ****
+*****
+
+
+Program 9
+
+    *
+   **
+  ***
+ ****
+*****
+*****
+ ****
+  ***
+   **
+    *
+
+program 10
+
+    **
+   ****
+  ******
+ ********
+**********
+**********
+ ********
+  ******
+   ****
+    **
+
+program 11
+
+**********
+*        *
+*        *
+*        *
+*        *
+**********
+
+
+
+number 1
+
+1
+2
+3
+4
+5
+
+number 2
+
+11111
+22222
+33333
+44444
+55555
+
+number 3
+
+12345
+12345
+12345
+12345
+12345
+
+
+number 4
+
+1
+22
+333
+4444
+55555
+
+
+number 5
+
+1
+12
+123
+1234
+12345
+
+number 6
+
+1
+22
+333
+4444
+55555
+55555
+4444
+333
+22
+1
+
+number 7
+
+1
+12
+123
+1234
+12345
+12345
+1234
+123
+12
+1
+
+
+number 8
+
+1
+22
+333
+4444
+55555
+4444
+333
+22
+1
+
+number 9
+
+1
+12
+123
+1234
+12345
+1234
+123
+12
+1
+
+number 10
+
+55555
+4444
+333
+22
+1
+1
+22
+333
+4444
+55555
+
+number 11
+
+12345
+1234
+123
+12
+1
+1
+12
+123
+1234
+12345
+
+
+
+number 12
+
+12345678910
+2468101214161820
+36912151821242730
+481216202428323640
+5101520253035404550
+6121824303642485460
+7142128354249566370
+8162432404856647280
+9182736455463728190
+102030405060708090100
+
+
+number 13
+
+12345
+678910
+1112131415
+1617181920
+2122232425
+
+
+number 14
+
+1
+23
+456
+78910
+1112131415
+
+
+
+
+
