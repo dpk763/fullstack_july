@@ -1,21 +1,30 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import Card from '../components/Card';
 
 function About() {
-    useEffect(()=>{
-        console.log("hello");
-    },[])
+  const [data, setData]=useState([]);
+  useEffect(()=>{
+    axios.get('https://dummyjson.com/products')
+    .then((res)=>setData(res.data.products))
+    .catch((err)=>console.log(err));
+  },[]);
 
-    let [num, setNum]=useState(1);
-
-    const msg=()=>{
-        setNum(num+1);
-    }
+  console.log(data);
   return (
-    <div>
-      <h1>This is about page</h1>
-      <p>{num}</p>
-      <button onClick={msg}>click</button>
+    <>
+    <div className="container">
+    <div className="row">
+      {data.map((item, index)=>{
+        return (
+          <div className="col my-4">
+            <Card id={item.id} title={item.title} img={item.thumbnail} desc={item.description}/>
+          </div>
+        )
+      })}
     </div>
+      </div>
+    </>
   )
 }
 
