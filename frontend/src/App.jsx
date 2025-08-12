@@ -6,6 +6,7 @@ import PageNotFound from './views/PageNotFound'
 import Navbar from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Details from './views/Details'
+import Product from './views/Product'
 function App() {
   return (
     <Router>
@@ -14,7 +15,9 @@ function App() {
         <Route path='*' element={<PageNotFound/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        
         <Route path='/details/:id' element={<Details/>}/>
+        <Route path='/product' element={<Product/>}/>
       </Routes>
     </Router>
   )
