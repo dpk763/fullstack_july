@@ -69,7 +69,7 @@ export const auth = async (req,res)=>{
       
       const decoded = jwt.verify(token,process.env.JWT_SECRET);
       const user = await User.findById(decoded.id);
-      res.json({msg:'protected data',id:user._id,name:user.name,email:user.email});
+      res.json({msg:'protected data',id:user._id,name:user.name,email:user.email,role:user.role});
     }
     catch(err){
       return res.status(403).json({msg:"Invalid token"})

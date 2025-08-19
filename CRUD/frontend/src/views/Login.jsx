@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Login.css"; // Import CSS
 
@@ -7,12 +7,22 @@ function Login() {
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
 
+  const navigation = useNavigate();
+  
+      useEffect(()=>{
+          const token = localStorage.getItem('token');
+          if(token){
+              navigation('/dashboard');
+          }
+      },[])
+
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
       .post("http://localhost:5000/api/users/login", { email, password })
       .then((res) => {
         localStorage.setItem("token", res.data);
+        navigation('/dashboard');
       })
       .catch((err) => console.log(err));
   };
