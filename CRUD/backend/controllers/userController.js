@@ -59,19 +59,6 @@ export const login = async (req, res)=>{
 }
 
 export const auth = async (req,res)=>{
-    const authHeader = req.headers.authorization;
-
-    if(!authHeader?.startsWith('Bearer ')) {
-      return res.status(401).json({ msg: "No token provider"});
-    }
-    try{
-      const token = authHeader.split(' ')[1];
-      
-      const decoded = jwt.verify(token,process.env.JWT_SECRET);
-      const user = await User.findById(decoded.id);
+      const user = await User.findById(req.user.id);
       res.json({msg:'protected data',id:user._id,name:user.name,email:user.email,role:user.role});
-    }
-    catch(err){
-      return res.status(403).json({msg:"Invalid token"})
-    }
   }

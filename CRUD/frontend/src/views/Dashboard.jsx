@@ -28,6 +28,15 @@ function Dashboard() {
     <div>
       <h1>Dashboard {user.name} : {user.role}</h1>
       <button onClick={handleLogout}>Logout</button>
+
+
+     
+      {user.role==="Admin"?
+      <h1>this is admin heading</h1>
+      :
+      <h1>this is user heading</h1>
+      }
+      
     </div>
   )
 }
